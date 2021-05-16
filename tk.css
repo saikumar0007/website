@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
+*
+{	margin:0;
+	box-sizing:border-box;
+	font-family: 'Berkshire Swash', cursive;
+	
+}
+
+body
+{
+	 
+	margin-top: 0.5rem;
+	padding: 1rem 1rem;
+	background:#031321;
+	
+}
+
+a{
+	margin-top: 10rem;
+	padding: 0.6rem 1.8rem;
+	background-color: #1179e7;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+	transition :0.2s;
+	
+	
+}
+a:hover
+{
+	color:#255784;
+	background:#2196f3;
+	box-shadow:0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+	transition-delay:0.1s;
+	
+}
+
+section
+{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	overflow:hidden;
+	background:#130e23;
+  
+	
+}
+
+section .text
+{
+	position:relative;
+	text-align:center;
+	color:#00cefe;
+	margin:40px;
+	max-width:650px;
+	font-size:50;
+}
+section .text span
+{
+	position:relative;
+	display:inline-block;
+}
